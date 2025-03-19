@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom css */
+
+.request-button {
+    background: linear-gradient(to right, #2af598, #009efd);
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+/* nav start */
+
+nav .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* nav end */
+
+/* hero start */
+
+.positional-image-1 {
+    position: relative;
+}
+
+.positional-image-1 img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.positional-image-2 img {
+    max-width: 700px;
+    width: 100%;
+}
+
+/* hero end */
+
+/* choose start */
+
+.choose-sec {
+    background: #f9f9f9;
+}
+
+.choose-sec .card img {
+    width: 90px;
+}
+
+.choose-sec .card p {
+    font-size: 0.8936524rem;
+}
+
+/* choose end */
+
+/* latest start */
+
+.lates-sec {
+    background: #f3f1f1;
+}
+
+.lates-sec .card {
+    height: 430px;
+}
+
+.lates-sec .card .title1 {
+    font-size: 0.8rem;
+    color: #A9A9A9;
+}
+
+.lates-sec .card .title2 {
+    font-size: 0.9rem;
+    color: #A9A9A9;
+}
+
+/* latest end */
+
+/* footer start */
+
+footer {
+    background: #2d314e;
+}
+
+/* footer end */
